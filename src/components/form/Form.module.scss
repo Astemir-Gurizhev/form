@@ -25,6 +25,12 @@
 	padding: 5px 10px;
 	border-radius: 5px;
 	width: 100%;
+	transition: box-shadow 0.3s ease;
+	&:hover {
+		outline: none;
+		border-color: #604a88;
+		box-shadow: 0 0 5px #4c3b6d;
+	}
 }
 .formContainer {
 	max-width: 600px;
