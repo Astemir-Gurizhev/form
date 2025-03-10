@@ -1,0 +1,33 @@
+.form {
+	background: #fff;
+	border-radius: 10px;
+	padding: 50px;
+}
+.formRow {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	
+}
+.formIcon {
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+.inputsArea {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	justify-content: space-between;
+	width: 100%;
+}
+.inputsArea input {
+	border: 1px solid #000;
+	padding: 5px 10px;
+	border-radius: 5px;
+	width: 100%;
+}
+.formContainer {
+	max-width: 600px;
+	margin: 0 auto;
+}
