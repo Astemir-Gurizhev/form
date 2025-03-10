@@ -46,7 +46,9 @@ export const Form = () => {
 							placeholder='должность'
 						/>
 					</div>
-					<button className={styles.btnSubmit} type='submit'>Отправить</button>
+					<button className={styles.btnSubmit} type='submit'>
+						отправить
+					</button>
 				</div>
 			</div>
 		</form>
