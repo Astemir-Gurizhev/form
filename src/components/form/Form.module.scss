@@ -30,3 +30,14 @@
 	max-width: 600px;
 	margin: 0 auto;
 }
+.btnSubmit {
+	margin-top: 10px;
+	background: #604a88;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: #fff;
+	transition: 0.3s;
+	&:hover {
+		background: #4c3b6d;
+	}
+}

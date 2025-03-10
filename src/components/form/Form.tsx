@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from 'react'
+import { ChangeEvent, FormEvent, useState } from 'react'
 import styles from './Form.module.scss'
 
 export const Form = () => {
@@ -15,9 +15,12 @@ export const Form = () => {
 	const handleInputStatus = (e: ChangeEvent<HTMLInputElement>) => {
 		setStatus(e.target.value)
 	}
+	const handleSumbit = (e: FormEvent<HTMLFormElement>) => {
+		e.preventDefault()
+	}
 
 	return (
-		<div className={styles.form}>
+		<form onSubmit={handleSumbit} className={styles.form}>
 			<div className={styles.formContainer}>
 				<div className={styles.formRow}>
 					<img className={styles.formIcon} src='/form.png' alt='' />
@@ -43,8 +46,9 @@ export const Form = () => {
 							placeholder='должность'
 						/>
 					</div>
+					<button className={styles.btnSubmit} type='submit'>Отправить</button>
 				</div>
 			</div>
-		</div>
+		</form>
 	)
 }
