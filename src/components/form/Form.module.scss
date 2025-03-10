@@ -1,3 +1,5 @@
+$purple: #4c3b6d;
+$lightPurple: #604a88;
 .form {
 	background: #fff;
 	border-radius: 10px;
@@ -22,14 +24,14 @@
 }
 .inputsArea input {
 	border: 1px solid #000;
-	padding: 5px 10px;
+	padding: 10px 15px;
 	border-radius: 5px;
 	width: 100%;
 	transition: box-shadow 0.3s ease;
 	&:hover {
 		outline: none;
-		border-color: #604a88;
-		box-shadow: 0 0 5px #4c3b6d;
+		border-color: $lightPurple;
+		box-shadow: 0 0 5px $purple;
 	}
 }
 .formContainer {
@@ -38,12 +40,12 @@
 }
 .btnSubmit {
 	margin-top: 10px;
-	background: #604a88;
+	background: $lightPurple;
 	padding: 10px 20px;
 	border-radius: 20px;
 	color: #fff;
 	transition: 0.3s;
 	&:hover {
-		background: #4c3b6d;
+		background: $purple;
 	}
 }
