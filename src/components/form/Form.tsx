@@ -1,5 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from 'react'
 import styles from './Form.module.scss'
+import File from '../ui/file/File'
 
 export const Form = () => {
 	const [name, setName] = useState<string>('')
@@ -46,6 +47,7 @@ export const Form = () => {
 							placeholder='должность'
 						/>
 					</div>
+					<File />
 					<button className={styles.btnSubmit} type='submit'>
 						отправить
 					</button>
