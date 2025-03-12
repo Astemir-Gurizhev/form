@@ -1,6 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from 'react'
 import styles from './Form.module.scss'
 import File from '../ui/file/File'
+import { CustomDatePicker } from '../ui/datepicker/DatePicker'
 
 export const Form = () => {
 	const [name, setName] = useState<string>('')
@@ -47,7 +48,10 @@ export const Form = () => {
 							placeholder='должность'
 						/>
 					</div>
+	
+					<CustomDatePicker />
 					<File />
+				
 					<button className={styles.btnSubmit} type='submit'>
 						отправить
 					</button>

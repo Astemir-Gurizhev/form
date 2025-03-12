@@ -6,20 +6,16 @@
 }
 
 .fileInput {
-	display: none; 
+	display: none;
 }
 
 .fileLabel {
 	display: inline-block;
-	padding: 5px 10px;
-	background-color: $lightPurple;
-	color: white;
+	padding: 10px 15px;
+	color: #000;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: background-color 0.3s;
 	font-size: 12px;
-
-	&:hover {
-			background-color: $purple;
-	}
+	border: 1px solid #000;
 }

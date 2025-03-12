@@ -1,0 +1,12 @@
+@import  '../../../styles/variables';
+
+.datepicker {
+	font-size: 12px;
+	transition: background-color  0.3s;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-align: center;
+	color: #000;
+	border: 1px solid #000;
+	cursor: pointer;
+}
